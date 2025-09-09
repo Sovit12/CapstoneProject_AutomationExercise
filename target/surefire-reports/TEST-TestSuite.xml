@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="29.25" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="209.498" tests="26" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire16825142143711087301\surefirebooter-20250909143703760_3.jar C:\Windows\Temp\surefire16825142143711087301 2025-09-09T14-37-03_388-jvmRun1 surefire-20250909143703760_1tmp surefire_0-20250909143703760_2tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire756497388784519945\surefirebooter-20250909144858366_3.jar C:\Windows\Temp\surefire756497388784519945 2025-09-09T14-48-58_244-jvmRun1 surefire-20250909144858366_1tmp surefire_0-20250909144858366_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline\target\test-classes;C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\7.28.1\cucumber-java-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\7.28.1\cucumber-core-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\7.28.1\cucumber-gherkin-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.28.1\cucumber-gherkin-messages-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\gherkin\34.0.0\gherkin-34.0.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\assertj\assertj-core\3.27.4\assertj-core-3.27.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\messages\28.1.0\messages-28.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\pretty-formatter\2.1.0\pretty-formatter-2.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\query\13.6.0\query-13.6.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\testng-xml-formatter\0.5.0\testng-xml-formatter-0.5.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\6.1.2\tag-expressions-6.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\18.0.1\cucumber-expressions-18.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-json-formatter\0.1.2\cucumber-json-formatter-0.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\networknt\json-schema-validator\1.5.8\json-schema-validator-1.5.8.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\ethlo\time\itu\1.10.3\itu-1.10.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\7.28.1\datatable-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\7.28.1\cucumber-plugin-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\7.28.1\docstring-7.28.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\21.13.0\html-formatter-21.13.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\junit-xml-formatter\0.8.1\junit-xml-formatter-0.8.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-testng\7.28.1\cucumber-testng-7.28.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire16825142143711087301\surefirebooter-20250909143703760_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire756497388784519945\surefirebooter-20250909144858366_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -59,11 +59,214 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verifyPlaceOrderAfterSignup" classname="com.tests.RegistrationBeforeCheckoutTest" time="20.031">
+  <testcase name="runScenario[&quot;User Registration to Sign-Up Page&quot;, &quot;Registration&quot;](1)" classname="com.TestRunner.RegistrationRunner" time="13.481">
+    <system-out><![CDATA[
+@register
+&amp#27;[1mScenario Outline:&amp#27;[22m User Registration to Sign-Up Page                                                                                                                   &amp#27;[90m# file:///C:/ProgramData/Jenkins/.jenkins/workspace/AutomationExercisePipeline/src/test/resources/Features/01-Register.feature:23&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is on the Home page&amp#27;[39m                                                                                                                                    &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_is_on_the_home_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks on the Sign-Up/Login button&amp#27;[39m                                                                                                                       &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_on_the_sign_up_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser is redirected to the Sign-Up page&amp#27;[39m                                                                                                                       &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_is_redirected_to_the_sign_up_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser fills in the signup details &amp#27;[1m"rahul"&amp#27;[22m and &amp#27;[1m"tony765@gmail.com"&amp#27;[22m&amp#27;[39m                                                                                             &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_fills_in_the_signup_details_and(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks the Sign-Up button&amp#27;[39m                                                                                                                                &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_the_sign_up_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser is redirected to the account information page&amp#27;[39m                                                                                                           &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_is_redirected_to_the_account_information_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser enters the following details &amp#27;[1m"15"&amp#27;[22m, &amp#27;[1m"May"&amp#27;[22m ,&amp#27;[1m"2000"&amp#27;[22m, &amp#27;[1m"roh123"&amp#27;[22m, &amp#27;[1m"Dummy"&amp#27;[22m, &amp#27;[1m"Dog"&amp#27;[22m, &amp#27;[1m"123 Main St"&amp#27;[22m, &amp#27;[1m"India"&amp#27;[22m, &amp#27;[1m"Odisha"&amp#27;[22m, &amp#27;[1m"Bhubaneshwar"&amp#27;[22m, &amp#27;[1m"90001"&amp#27;[22m, and &amp#27;[1m"1234567890"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_enters_the_following_details_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks on the Create Account button&amp#27;[39m                                                                                                                      &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_on_the_create_account_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser account created&amp#27;[39m                                                                                                                                         &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_account_created()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mAccount created message verified&amp#27;[39m                                                                                                                              &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.account_created_message_verified()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser clicks on Continue button&amp#27;[39m                                                                                                                                &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_on_continue_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mlogged in as username is visible&amp#27;[39m                                                                                                                              &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.logged_in_as_username_is_visible()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on delete account button&amp#27;[39m                                                                                                                         &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_on_delete_account_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22maccount deleted is visible&amp#27;[39m                                                                                                                                   &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.account_deleted_is_visible()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks continue button&amp#27;[39m                                                                                                                                   &amp#27;[90m# com.stepDefinitions.RegistrationStepDefinitions.user_clicks_continue_button()&amp#27;[39m
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/User_Registration_to_Sign-Up_Page_2025-09-09_14-49-18.png
+
+        &amp#27;[34mEmbedding User Registration to Sign-Up Page [image/png 222909 bytes]&amp#27;[39m
+
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/runScenario_2025-09-09_14-49-18.png
+]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sept 09, 2025 2:37:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Sept 09, 2025 2:49:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Login Page with credentials&quot;](1)" classname="com.TestRunner.LoginRunner" time="5.18">
+    <system-out><![CDATA[
+@Valid
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with valid credentials                &amp#27;[90m# file:///C:/ProgramData/Jenkins/.jenkins/workspace/AutomationExercisePipeline/src/test/resources/Features/02and03-Login.feature:18&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is in home page&amp#27;[39m                                &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_is_in_home_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on signup/login button&amp#27;[39m                   &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_clicks_on_signup_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22muser is redirected to login page&amp#27;[39m                     &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_is_redirected_to_login_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser enters valid &amp#27;[1m"david1@gmail.com"&amp#27;[22m and &amp#27;[1m"david@123"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_enters_valid_and(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks on Login button&amp#27;[39m                           &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_clicks_on_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22muser has successfully logged in&amp#27;[39m                      &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_has_successfully_logged_in()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mLogged in as username message is displayed&amp#27;[39m            &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.logged_in_as_username_message_is_displayed()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22muser clicks on logout button&amp#27;[39m                          &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_clicks_on_logout_button()&amp#27;[39m
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/Login_with_valid_credentials_2025-09-09_14-49-30.png
+
+        &amp#27;[34mEmbedding Login with valid credentials [image/png 27888 bytes]&amp#27;[39m
+
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/runScenario_2025-09-09_14-49-30.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:49:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credentials&quot;, &quot;Login Page with credentials&quot;](2)" classname="com.TestRunner.LoginRunner" time="2.288">
+    <system-out><![CDATA[
+@Invalid
+&amp#27;[1mScenario Outline:&amp#27;[22m Login with invalid credentials             &amp#27;[90m# file:///C:/ProgramData/Jenkins/.jenkins/workspace/AutomationExercisePipeline/src/test/resources/Features/02and03-Login.feature:28&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is in home page&amp#27;[39m                               &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_is_in_home_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser clicks on signup/login button&amp#27;[39m                  &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_clicks_on_signup_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22muser is redirected to login page&amp#27;[39m                    &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_is_redirected_to_login_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22muser enters invalid &amp#27;[1m"davod1@gmail.com"&amp#27;[22m and &amp#27;[1m"david@"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_enters_invalid_and(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mAnd &amp#27;[22mUser click on Login button&amp#27;[39m                           &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.user_click_on_login_button_invalid()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mYour email or password is incorrect! is visible&amp#27;[39m     &amp#27;[90m# com.stepDefinitions.LoginStepDefinitions.your_email_or_password_is_incorrect_is_visible()&amp#27;[39m
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/Login_with_invalid_credentials_2025-09-09_14-49-32.png
+
+        &amp#27;[34mEmbedding Login with invalid credentials [image/png 30033 bytes]&amp#27;[39m
+
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/runScenario_2025-09-09_14-49-32.png
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Logout feature&quot;, &quot;Logout&quot;](1)" classname="com.TestRunner.LogoutRunner" time="5.696">
+    <system-out><![CDATA[
+@logout
+&amp#27;[1mScenario Outline:&amp#27;[22m Logout feature                         &amp#27;[90m# file:///C:/ProgramData/Jenkins/.jenkins/workspace/AutomationExercisePipeline/src/test/resources/Features/04-Logout.feature:14&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mGiven &amp#27;[22mUser is in Home page&amp#27;[39m                           &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_is_in_home_page()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser clicked on signup/login button&amp#27;[39m             &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_clicked_on_signup_login_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser entered &amp#27;[1m"david1@gmail.com"&amp#27;[22m and &amp#27;[1m"david@123"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_entered_and(java.lang.String,java.lang.String)&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser is Logged in and username is displayed&amp#27;[39m     &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_is_logged_in_and_username_is_displayed()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mWhen &amp#27;[22mUser clicked logout button&amp#27;[39m                      &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_clicked_logout_button()&amp#27;[39m
+  &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mThen &amp#27;[22mUser redirected to login page&amp#27;[39m                   &amp#27;[90m# com.stepDefinitions.LogoutStepDefinitons.user_redirected_to_login_page()&amp#27;[39m
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/Logout_feature_2025-09-09_14-49-43.png
+
+        &amp#27;[34mEmbedding Logout feature [image/png 27888 bytes]&amp#27;[39m
+
+Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/runScenario_2025-09-09_14-49-43.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:49:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageVisible" classname="com.tests.ExistingRegistrationTest" time="0.016">
+    <system-err><![CDATA[Sept 09, 2025 2:49:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="clickSignupAndVerifyNewUserSignup" classname="com.tests.ExistingRegistrationTest" time="0.738">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageVisible_2025-09-09_14-49-47.png
+]]></system-out>
+  </testcase>
+  <testcase name="registerWithExistingEmailAndVerifyError" classname="com.tests.ExistingRegistrationTest" time="1.021">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/clickSignupAndVerifyNewUserSignup_2025-09-09_14-49-48.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.ContactUsFormTest" time="0.028">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/registerWithExistingEmailAndVerifyError_2025-09-09_14-49-49.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:49:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="testContactUsFormSubmission" classname="com.tests.ContactUsFormTest" time="3.168">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-49-55.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.VerifyTestCaseTest" time="0.008">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/testContactUsFormSubmission_2025-09-09_14-49-58.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyTestCasesNavigation" classname="com.tests.VerifyTestCaseTest" time="0.824">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-04.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.VerifyAllProductsTest" time="0.017">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyTestCasesNavigation_2025-09-09_14-50-05.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAllProductsPageIsVisible" classname="com.tests.VerifyAllProductsTest" time="1.956">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-11.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyViewProductsFunctionality" classname="com.tests.VerifyAllProductsTest" time="1.727">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyAllProductsPageIsVisible_2025-09-09_14-50-14.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.SearchProductsTest" time="0.039">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyViewProductsFunctionality_2025-09-09_14-50-15.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAllProductsPageIsVisible" classname="com.tests.SearchProductsTest" time="2.656">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-20.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifySearchFunctionality" classname="com.tests.SearchProductsTest" time="1.009">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyAllProductsPageIsVisible_2025-09-09_14-50-23.png
+Products found for search term 'dress': 9
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.SubscriptionTest" time="0.015">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifySearchFunctionality_2025-09-09_14-50-24.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifySubscriptionFunctionality" classname="com.tests.SubscriptionTest" time="5.86">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-30.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.SubscriptionCartTest" time="0.01">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifySubscriptionFunctionality_2025-09-09_14-50-36.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifySubscriptionFlow" classname="com.tests.SubscriptionCartTest" time="5.001">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-44.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyHomePageIsVisible" classname="com.tests.AddToCartTest" time="0.006">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifySubscriptionFlow_2025-09-09_14-50-49.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:50:50 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartFlow" classname="com.tests.AddToCartTest" time="13.212">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyHomePageIsVisible_2025-09-09_14-50-54.png
+]]></system-out>
+  </testcase>
+  <testcase name="verifyIncreaseQuantityFlow" classname="com.tests.IncreasedQuantityTest" time="8.795">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyAddToCartFlow_2025-09-09_14-51-08.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:51:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCheckoutWithRegistrationFlow" classname="com.tests.RegistrationWhileCheckoutTest" time="20.301">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyIncreaseQuantityFlow_2025-09-09_14-51-24.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:51:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPlaceOrderAfterSignup" classname="com.tests.RegistrationBeforeCheckoutTest" time="18.791">
+    <system-out><![CDATA[Screenshot saved at: C:\ProgramData\Jenkins\.jenkins\workspace\AutomationExercisePipeline/screenshots/passed/verifyCheckoutWithRegistrationFlow_2025-09-09_14-51-49.png
+]]></system-out>
+    <system-err><![CDATA[Sept 09, 2025 2:51:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
 ]]></system-err>
   </testcase>
