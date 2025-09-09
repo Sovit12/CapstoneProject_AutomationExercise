@@ -6,7 +6,7 @@ pipeline {
 
         BRANCH_NAME = 'main'
 
-        ECLIPSE_WORKSPACE = 'D:\myworkspace\AutomationExercise'
+        ECLIPSE_WORKSPACE = 'D:\\myworkspace\\AutomationExercise'
 
         COMMIT_MESSAGE = 'Jenkins: Auto-commit after build'
 
