@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-   <!-- <test name="Registration Test">
+    <test name="Registration Test">
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://automationexercise.com/"/>
     <classes>
@@ -103,7 +103,7 @@
         <classes>
             <class name="com.tests.RegistrationWhileCheckoutTest"/>
         </classes>
-    </test> -->
+    </test> 
     
     <test name="Registration Before checkout Tests">
         <parameter name="browser" value="chrome"/>
