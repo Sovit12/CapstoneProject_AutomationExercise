@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-08T16:06:11 IST" name="Suite" finished-at="2025-09-08T16:07:02 IST" duration-ms="51093">
+  <suite started-at="2025-09-09T14:35:43 IST" name="Suite" finished-at="2025-09-09T14:36:16 IST" duration-ms="32713">
     <groups>
     </groups>
-    <test started-at="2025-09-08T16:06:11 IST" name="Registration Before checkout Tests" finished-at="2025-09-08T16:07:02 IST" duration-ms="51093">
+    <test started-at="2025-09-09T14:35:43 IST" name="Registration Before checkout Tests" finished-at="2025-09-09T14:36:16 IST" duration-ms="32713">
       <class name="com.tests.RegistrationBeforeCheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-08T16:06:11 IST" name="setUp" finished-at="2025-09-08T16:06:16 IST" duration-ms="4991" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-09T14:35:43 IST" name="setUp" finished-at="2025-09-09T14:35:51 IST" duration-ms="7627" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-08T16:06:16 IST" name="initPageObjects" finished-at="2025-09-08T16:06:16 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-09T14:35:51 IST" name="initPageObjects" finished-at="2025-09-09T14:35:51 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyPlaceOrderAfterSignup()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-08T16:06:16 IST" name="verifyPlaceOrderAfterSignup" finished-at="2025-09-08T16:07:01 IST" duration-ms="44926" status="PASS">
+        <test-method signature="verifyPlaceOrderAfterSignup()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-09T14:35:51 IST" name="verifyPlaceOrderAfterSignup" finished-at="2025-09-09T14:36:14 IST" duration-ms="23861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPlaceOrderAfterSignup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-08T16:07:02 IST" name="tearDown" finished-at="2025-09-08T16:07:02 IST" duration-ms="305" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@2002fc1d]" started-at="2025-09-09T14:36:15 IST" name="tearDown" finished-at="2025-09-09T14:36:16 IST" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

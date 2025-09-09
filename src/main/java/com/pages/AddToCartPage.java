@@ -16,6 +16,7 @@ import com.basePage.BasePage;
 public class AddToCartPage extends BasePage {
 
 	WebDriver webDriver;
+	WebDriver webDriver1;
 	WebDriverWait wait;
 	JavascriptExecutor js;
 
