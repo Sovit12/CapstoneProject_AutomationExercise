@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T14:33:28 IST" name="Suite" finished-at="2025-09-09T14:33:55 IST" duration-ms="26916">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T14:33:28 IST" name="Registration Before checkout Tests" finished-at="2025-09-09T14:33:55 IST" duration-ms="26916">
+      <class name="com.tests.RegistrationBeforeCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@5158b42f]" started-at="2025-09-09T14:33:28 IST" name="setUp" finished-at="2025-09-09T14:33:34 IST" duration-ms="6245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationexercise.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@5158b42f]" started-at="2025-09-09T14:33:34 IST" name="initPageObjects" finished-at="2025-09-09T14:33:34 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="verifyPlaceOrderAfterSignup()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@5158b42f]" started-at="2025-09-09T14:33:34 IST" name="verifyPlaceOrderAfterSignup" finished-at="2025-09-09T14:33:54 IST" duration-ms="19675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPlaceOrderAfterSignup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@5158b42f]" started-at="2025-09-09T14:33:55 IST" name="tearDown" finished-at="2025-09-09T14:33:55 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.RegistrationBeforeCheckoutTest -->
+    </test> <!-- Registration Before checkout Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
