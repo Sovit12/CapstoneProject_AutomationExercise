@@ -20,4 +20,4 @@ Feature: Registration
 
     Examples: 
       | username | email             | days | months | years | password | firstname | lastname | address     | country | state  | city         | zipcode | mobileNumber |
-      | rahul    | roha0000@gmail.com |   15 | May    |  2000 | roh123   | Dummy     | Dog      | 123 Main St | India   | Odisha | Bhubaneshwar |   90001 |   1234567890 |
+      | rahul    | tony765@gmail.com |   15 | May    |  2000 | roh123   | Dummy     | Dog      | 123 Main St | India   | Odisha | Bhubaneshwar |   90001 |   1234567890 |

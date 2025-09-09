@@ -27,7 +27,7 @@ public class AddToCartPage extends BasePage {
 		PageFactory.initElements(webDriver, this);
 	}
 
-	// Products link
+	
 	@FindBy(xpath = "//a[@href='/products']")
 	WebElement products1WebElement;
 
@@ -35,7 +35,7 @@ public class AddToCartPage extends BasePage {
 		js.executeScript("arguments[0].click();", products1WebElement);
 	}
 
-	// Product 1 hover + add to cart
+	
 	@FindBy(xpath = "//div[@class='col-sm-9 padding-right']//div[2]//div[1]//div[1]//div[2]")
 	WebElement hoverproductWebElement1;
 
@@ -47,7 +47,7 @@ public class AddToCartPage extends BasePage {
 		action.moveToElement(hoverproductWebElement1).moveToElement(productWebElement1).click().perform();
 	}
 
-	// Continue Shopping Button
+	
 	@FindBy(css = ".btn.btn-success.close-modal.btn-block")
 	WebElement continueButton;
 
@@ -56,7 +56,7 @@ public class AddToCartPage extends BasePage {
 		Thread.sleep(5000);
 	}
 
-	// Product 2 hover + add to cart
+	
 	@FindBy(xpath = "//div[3]//div[1]//div[1]//div[2]")
 	WebElement hoverproductWebElement2;
 
@@ -68,7 +68,7 @@ public class AddToCartPage extends BasePage {
 		action.moveToElement(hoverproductWebElement2).moveToElement(productWebElement2).click().perform();
 	}
 
-	// View Cart
+
 	@FindBy(xpath = "//u[normalize-space()='View Cart']")
 	WebElement viewcartWebElement;
 
@@ -76,9 +76,7 @@ public class AddToCartPage extends BasePage {
 		viewcartWebElement.click();
 	}
 
-	// ================= CART VALIDATIONS =================
-
-	// Product 1
+	
 	@FindBy(xpath = "(//td[@class='cart_description']/h4/a)[1]")
 	WebElement firstProductName;
 
@@ -91,7 +89,7 @@ public class AddToCartPage extends BasePage {
 	@FindBy(xpath = "//tr[@id='product-1']//td[@class='cart_total']/p")
 	WebElement firstProductTotal;
 
-	// Product 2
+	
 
 	@FindBy(xpath = "(//td[@class='cart_description']/h4/a)[2]")
 	WebElement secondProductName;
@@ -105,7 +103,7 @@ public class AddToCartPage extends BasePage {
 	@FindBy(xpath = "//tr[@id='product-2']//td[@class='cart_total']/p")
 	WebElement secondProductTotal;
 
-	// Methods for validation
+
 	public String getFirstProductName() {
 	    wait.until(ExpectedConditions.visibilityOf(firstProductName));
 	    return firstProductName.getText();

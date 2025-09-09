@@ -13,7 +13,7 @@ import com.basePage.BasePage;
 
 public class RegistrationPage extends BasePage {
 
-    private WebDriverWait wait;
+     WebDriverWait wait;
 
     public RegistrationPage(WebDriver driver) {
         super(driver);

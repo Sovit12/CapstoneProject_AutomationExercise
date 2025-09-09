@@ -9,7 +9,7 @@ import com.basePage.BasePage;
 
 public class ContactUsFormPage extends BasePage{
 
-    WebDriver webDriver;
+//    WebDriver webDriver;
 
     public ContactUsFormPage(WebDriver webDriver) {
         super(webDriver);
@@ -71,9 +71,6 @@ public class ContactUsFormPage extends BasePage{
 
     public void chooseFile(String path) throws InterruptedException {
         uploadWebElement.sendKeys(path);
-
-        //Thread.sleep(1000);
-        //uploadWebElement.click();
 
     }
 

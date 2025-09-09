@@ -10,7 +10,7 @@ import com.basePage.BasePage;
 
 public class SubscriptionPage extends BasePage{
 
-    WebDriver webDriver;
+//    WebDriver webDriver;
     public SubscriptionPage(WebDriver webDriver) {
         super(webDriver);
         PageFactory.initElements(webDriver , this);

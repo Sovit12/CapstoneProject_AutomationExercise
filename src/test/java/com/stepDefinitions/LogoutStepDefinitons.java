@@ -56,11 +56,6 @@ public class LogoutStepDefinitons {
     public void user_redirected_to_login_page() {
         String expectedUrl = "https://automationexercise.com/login";
         String actualUrl = driver.getCurrentUrl();
-//        if (actualUrl.equals(expectedUrl)) {
-//            ScreenshotUtility.capturePassScreenshot(driver, "PassLogout");
-//        } else {
-//            ScreenshotUtility.captureFailScreenshot(driver, "FailLogout");
-//        }
         Assert.assertEquals(actualUrl, expectedUrl, "User not redirected to home page after logout!");
     }
 }

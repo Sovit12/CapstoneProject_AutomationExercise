@@ -43,7 +43,7 @@ public class Login_Valid_InvalidPage extends BasePage {
     @FindBy(xpath = "//p[text()='Your email or password is incorrect!']")
     WebElement errorMessageWebElement;
 
-    // ---------------- Actions ----------------
+    
 
     public void clickSignUp() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -70,12 +70,11 @@ public class Login_Valid_InvalidPage extends BasePage {
         logoutButtonWebElement.click();
     }
 
-    // ---------------- Validations ----------------
 
     public boolean isLoggedInAsVisible(String username) {
         try {
             wait.until(ExpectedConditions.visibilityOf(loggedInAsElement));
-            String text = loggedInAsElement.getText(); // e.g., "Logged in as David"
+            String text = loggedInAsElement.getText(); 
             return text.contains(username);
         } catch (Exception e) {
             return false;

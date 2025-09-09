@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class VerifyAllProductsPage extends BasePage {
 
-    WebDriver webDriver;
+//    WebDriver webDriver;
     public VerifyAllProductsPage(WebDriver webDriver) {
         super(webDriver);
         PageFactory.initElements(webDriver , this);

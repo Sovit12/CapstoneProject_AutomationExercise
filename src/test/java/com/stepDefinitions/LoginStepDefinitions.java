@@ -16,12 +16,12 @@ public class LoginStepDefinitions {
     Login_Valid_InvalidPage validLogin;
     String emailUsed;
     String passwordUsed;
-    String username; // first name for successful login
+    String username;
 
     public LoginStepDefinitions() {
         this.driver = DriverFactory.getDriver();
         if (driver == null) {
-            // initialize driver if not yet initialized
+            
             DriverFactory.initDriver("chrome", "https://automationexercise.com");
             this.driver = DriverFactory.getDriver();
         }
@@ -46,12 +46,11 @@ public class LoginStepDefinitions {
                 "Not redirected to Login page!");
     }
 
-    // ----- Valid Login -----
     @When("user enters valid {string} and {string}")
     public void user_enters_valid_and(String email, String password) {
         emailUsed = email;
         passwordUsed = password;
-        username = "Logged in as"; // replace with the actual first name associated with account
+        username = "Logged in as"; 
         validLogin.enterEmail(emailUsed);
         validLogin.enterPassword(passwordUsed);
     }
@@ -77,10 +76,10 @@ public class LoginStepDefinitions {
     public void logged_in_as_username_message_is_displayed() {
         Assert.assertTrue(validLogin.isLoggedInAsVisible(username),
                 "Logged in as username not visible!");
-//        ScreenshotUtility.capturePassScreenshot(driver, "ValidLoginPass");
+      
     }
 
-    // ----- Invalid Login -----
+   
     @When("user enters invalid {string} and {string}")
     public void user_enters_invalid_and(String email, String password) {
         emailUsed = email;
@@ -97,7 +96,6 @@ public class LoginStepDefinitions {
     @Then("Your email or password is incorrect! is visible")
     public void your_email_or_password_is_incorrect_is_visible() {
         Assert.assertTrue(validLogin.isErrorMessageVisible(),
-                "Error message for invalid login not visible!");
-//        ScreenshotUtility.captureFailScreenshot(webdriver, "InvalidLoginFail");
+                "Error message for invalid login not visible!");      
     }
 }

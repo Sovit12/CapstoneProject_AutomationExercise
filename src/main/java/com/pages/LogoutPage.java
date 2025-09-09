@@ -39,7 +39,7 @@ public class LogoutPage extends BasePage {
     @FindBy(xpath = "//a[normalize-space()='Logout']")
     WebElement logoutButtonWebElement;
 
-    // ----------------- Actions -----------------
+    
 
     public void clickSignUp() {
         wait.until(ExpectedConditions.elementToBeClickable(signupWebElement)).click();

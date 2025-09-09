@@ -115,11 +115,6 @@ public class RegistrationStepDefinitions {
         registration.clickContinueButton();
 
         String expectedUrl = "https://automationexercise.com/";
-//        if (webdriver.getCurrentUrl().equals(expectedUrl)) {
-//            ScreenshotUtility.capturePassScreenshot(driver, "PassRegistration2");
-//        } else {
-//            ScreenshotUtility.captureFailScreenshot(driver, "FailRegistration2");
-//        }
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl,
                 "User not redirected back to Home page after deleting account!");
     }

@@ -21,7 +21,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         PageFactory.initElements(webDriver, this);
     }
 
-    // ------------------- Product Selection -------------------
+    
     @FindBy(xpath = "//div[@class='col-sm-9 padding-right']//div[2]//div[1]//div[1]//div[2]")
     WebElement hoverproductWebElement1;
 
@@ -37,7 +37,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         Thread.sleep(2000);
     }
 
-    // ------------------- Cart & Checkout -------------------
+   
     @FindBy(xpath = "//*[@id='cartModal']/div/div/div[2]/p[2]/a/u")
     WebElement viewcartWebElement;
 
@@ -52,7 +52,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         proceedToCheckoutWebElement.click();
     }
     
- // Home page "Signup / Login"
+ 
     @FindBy(xpath = "//a[normalize-space()='Signup / Login']")
     WebElement signupLoginHeader;
     
@@ -67,7 +67,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         registerloginWebElement.click();
     }
 
-    // ------------------- Signup Form -------------------
+    
     @FindBy(xpath = "//input[@data-qa = 'signup-name']")
     WebElement usernameWebElement;
 
@@ -208,7 +208,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         js.executeScript("arguments[0].click();", createWebElement);
     }
 
-    // ------------------- Assertions & Validation -------------------
+
     @FindBy(xpath = "//b[normalize-space()='Account Created!']")
     WebElement accountCreatedMsg;
 
@@ -265,7 +265,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         placeorderWebElement1.click();
     }
 
-    // ------------------- Payment -------------------
+   
     @FindBy(name = "name_on_card")
     WebElement nameOnCardElement;
 
@@ -315,7 +315,7 @@ public class RegistrationWhileCheckoutPage extends BasePage {
         return successOrderMsg.getText();
     }
 
-    // ------------------- Delete Account -------------------
+    
     @FindBy(xpath = "//a[normalize-space()='Delete Account']")
     WebElement clickDeleteWebElement;
 
