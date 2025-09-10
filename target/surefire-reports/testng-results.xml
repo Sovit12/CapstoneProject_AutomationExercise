@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-09T14:48:59 IST" name="Suite" finished-at="2025-09-09T14:52:28 IST" duration-ms="208940">
+  <suite started-at="2025-09-10T15:03:05 IST" name="Suite" finished-at="2025-09-10T15:06:14 IST" duration-ms="188594">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
@@ -10,20 +10,20 @@
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-09-09T14:48:59 IST" name="Registration Test" finished-at="2025-09-09T14:49:19 IST" duration-ms="19973">
+    <test started-at="2025-09-10T15:03:05 IST" name="Registration Test" finished-at="2025-09-10T15:03:32 IST" duration-ms="26507">
       <class name="com.TestRunner.RegistrationRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-09T14:48:59 IST" name="setUpClass" finished-at="2025-09-09T14:48:59 IST" duration-ms="586" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-10T15:03:05 IST" name="setUpClass" finished-at="2025-09-10T15:03:06 IST" duration-ms="1145" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5342032a]]>
+                <![CDATA[org.testng.TestRunner@178ba69f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-09T14:48:59 IST" name="setUpClass" finished-at="2025-09-09T14:49:05 IST" duration-ms="5684" status="PASS">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-10T15:03:06 IST" name="setUpClass" finished-at="2025-09-10T15:03:18 IST" duration-ms="11396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-09T14:49:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T14:49:18 IST" duration-ms="13151" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-10T15:03:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T15:03:31 IST" duration-ms="12780" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,26 +55,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-09T14:49:19 IST" name="tearDownClass" finished-at="2025-09-09T14:49:19 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.RegistrationRunner@4135c3b]" started-at="2025-09-10T15:03:31 IST" name="tearDownClass" finished-at="2025-09-10T15:03:32 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.TestRunner.RegistrationRunner -->
     </test> <!-- Registration Test -->
-    <test started-at="2025-09-09T14:49:19 IST" name="Login Test" finished-at="2025-09-09T14:49:32 IST" duration-ms="13645">
+    <test started-at="2025-09-10T15:03:32 IST" name="Login Test" finished-at="2025-09-10T15:03:45 IST" duration-ms="12750">
       <class name="com.TestRunner.LoginRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-09T14:49:19 IST" name="setUpClass" finished-at="2025-09-09T14:49:19 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-10T15:03:32 IST" name="setUpClass" finished-at="2025-09-10T15:03:32 IST" duration-ms="32" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@239d9cb7]]>
+                <![CDATA[org.testng.TestRunner@1e4c4fda]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-09T14:49:19 IST" name="setUpClass" finished-at="2025-09-09T14:49:25 IST" duration-ms="5959" status="PASS">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-10T15:03:32 IST" name="setUpClass" finished-at="2025-09-10T15:03:37 IST" duration-ms="5035" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-09T14:49:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T14:49:30 IST" duration-ms="5112" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-10T15:03:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T15:03:42 IST" duration-ms="4895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -106,7 +106,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-09T14:49:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T14:49:32 IST" duration-ms="2195" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-10T15:03:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T15:03:44 IST" duration-ms="2071" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,26 +122,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-09T14:49:32 IST" name="tearDownClass" finished-at="2025-09-09T14:49:32 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.LoginRunner@13c9d689]" started-at="2025-09-10T15:03:44 IST" name="tearDownClass" finished-at="2025-09-10T15:03:45 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.TestRunner.LoginRunner -->
     </test> <!-- Login Test -->
-    <test started-at="2025-09-09T14:49:32 IST" name="Logout Test" finished-at="2025-09-09T14:49:43 IST" duration-ms="11061">
+    <test started-at="2025-09-10T15:03:45 IST" name="Logout Test" finished-at="2025-09-10T15:03:57 IST" duration-ms="12040">
       <class name="com.TestRunner.LogoutRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-09T14:49:32 IST" name="setUpClass" finished-at="2025-09-09T14:49:32 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-10T15:03:45 IST" name="setUpClass" finished-at="2025-09-10T15:03:45 IST" duration-ms="34" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5a35ae82]]>
+                <![CDATA[org.testng.TestRunner@2f58f492]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-09T14:49:32 IST" name="setUpClass" finished-at="2025-09-09T14:49:38 IST" duration-ms="5187" status="PASS">
+        <test-method is-config="true" signature="setUpClass(java.lang.String,java.lang.String)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-10T15:03:45 IST" name="setUpClass" finished-at="2025-09-10T15:03:49 IST" duration-ms="4787" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-09T14:49:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-09T14:49:43 IST" duration-ms="5606" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-10T15:03:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-10T15:03:56 IST" duration-ms="6946" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -173,15 +173,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-09T14:49:43 IST" name="tearDownClass" finished-at="2025-09-09T14:49:43 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestRunner.LogoutRunner@4afcd809]" started-at="2025-09-10T15:03:56 IST" name="tearDownClass" finished-at="2025-09-10T15:03:57 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- com.TestRunner.LogoutRunner -->
     </test> <!-- Logout Test -->
-    <test started-at="2025-09-09T14:49:43 IST" name="Existing Registration Test" finished-at="2025-09-09T14:49:50 IST" duration-ms="6329">
+    <test started-at="2025-09-10T15:03:57 IST" name="Existing Registration Test" finished-at="2025-09-10T15:04:03 IST" duration-ms="6880">
       <class name="com.tests.ExistingRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:43 IST" name="setUp" finished-at="2025-09-09T14:49:47 IST" duration-ms="3951" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:03:57 IST" name="setUp" finished-at="2025-09-10T15:04:01 IST" duration-ms="4387" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -197,31 +197,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:47 IST" name="initPages" finished-at="2025-09-09T14:49:47 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageVisible()[pri:1, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:47 IST" name="verifyHomePageVisible" finished-at="2025-09-09T14:49:47 IST" duration-ms="15" status="PASS">
+        <test-method signature="verifyHomePageVisible()[pri:1, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:04:01 IST" name="verifyHomePageVisible" finished-at="2025-09-10T15:04:01 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageVisible -->
-        <test-method signature="clickSignupAndVerifyNewUserSignup()[pri:2, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:48 IST" name="clickSignupAndVerifyNewUserSignup" finished-at="2025-09-09T14:49:48 IST" duration-ms="737" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:04:01 IST" name="initPages" finished-at="2025-09-10T15:04:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="clickSignupAndVerifyNewUserSignup()[pri:2, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:04:01 IST" name="clickSignupAndVerifyNewUserSignup" finished-at="2025-09-10T15:04:02 IST" duration-ms="755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignupAndVerifyNewUserSignup -->
-        <test-method signature="registerWithExistingEmailAndVerifyError()[pri:3, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:48 IST" name="registerWithExistingEmailAndVerifyError" finished-at="2025-09-09T14:49:49 IST" duration-ms="1021" status="PASS">
+        <test-method signature="registerWithExistingEmailAndVerifyError()[pri:3, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:04:02 IST" name="registerWithExistingEmailAndVerifyError" finished-at="2025-09-10T15:04:03 IST" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerWithExistingEmailAndVerifyError -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-09T14:49:50 IST" name="tearDown" finished-at="2025-09-09T14:49:50 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ExistingRegistrationTest@2d1ef81a]" started-at="2025-09-10T15:04:03 IST" name="tearDown" finished-at="2025-09-10T15:04:03 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.ExistingRegistrationTest -->
     </test> <!-- Existing Registration Test -->
-    <test started-at="2025-09-09T14:49:50 IST" name="Contact Us Form Tests" finished-at="2025-09-09T14:49:59 IST" duration-ms="9095">
+    <test started-at="2025-09-10T15:04:03 IST" name="Contact Us Form Tests" finished-at="2025-09-10T15:04:13 IST" duration-ms="9645">
       <class name="com.tests.ContactUsFormTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-09T14:49:50 IST" name="setUp" finished-at="2025-09-09T14:49:55 IST" duration-ms="5162" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-10T15:04:03 IST" name="setUp" finished-at="2025-09-10T15:04:08 IST" duration-ms="4640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -237,27 +237,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-09T14:49:55 IST" name="initPages" finished-at="2025-09-09T14:49:55 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-10T15:04:08 IST" name="initPages" finished-at="2025-09-10T15:04:08 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-09T14:49:55 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:49:55 IST" duration-ms="29" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-10T15:04:08 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:08 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="testContactUsFormSubmission()[pri:2, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-09T14:49:55 IST" name="testContactUsFormSubmission" finished-at="2025-09-09T14:49:58 IST" duration-ms="3168" status="PASS">
+        <test-method signature="testContactUsFormSubmission()[pri:2, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-10T15:04:08 IST" name="testContactUsFormSubmission" finished-at="2025-09-10T15:04:13 IST" duration-ms="4350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactUsFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-09T14:49:59 IST" name="tearDown" finished-at="2025-09-09T14:49:59 IST" duration-ms="373" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.ContactUsFormTest@dd05255]" started-at="2025-09-10T15:04:13 IST" name="tearDown" finished-at="2025-09-10T15:04:13 IST" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.ContactUsFormTest -->
     </test> <!-- Contact Us Form Tests -->
-    <test started-at="2025-09-09T14:49:59 IST" name="Verify Test Case Tests" finished-at="2025-09-09T14:50:05 IST" duration-ms="6021">
+    <test started-at="2025-09-10T15:04:13 IST" name="Verify Test Case Tests" finished-at="2025-09-10T15:04:20 IST" duration-ms="6404">
       <class name="com.tests.VerifyTestCaseTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-09T14:49:59 IST" name="setUp" finished-at="2025-09-09T14:50:04 IST" duration-ms="4729" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-10T15:04:13 IST" name="setUp" finished-at="2025-09-10T15:04:18 IST" duration-ms="5217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -273,27 +273,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-09T14:50:04 IST" name="initPages" finished-at="2025-09-09T14:50:04 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-09T14:50:04 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:04 IST" duration-ms="9" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-10T15:04:18 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:18 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifyTestCasesNavigation()[pri:2, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-09T14:50:04 IST" name="verifyTestCasesNavigation" finished-at="2025-09-09T14:50:05 IST" duration-ms="825" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-10T15:04:18 IST" name="initPages" finished-at="2025-09-10T15:04:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="verifyTestCasesNavigation()[pri:2, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-10T15:04:18 IST" name="verifyTestCasesNavigation" finished-at="2025-09-10T15:04:19 IST" duration-ms="788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTestCasesNavigation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-09T14:50:05 IST" name="tearDown" finished-at="2025-09-09T14:50:05 IST" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.VerifyTestCaseTest@3fc2959f]" started-at="2025-09-10T15:04:19 IST" name="tearDown" finished-at="2025-09-10T15:04:20 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.VerifyTestCaseTest -->
     </test> <!-- Verify Test Case Tests -->
-    <test started-at="2025-09-09T14:50:05 IST" name="Verify All Products Tests" finished-at="2025-09-09T14:50:16 IST" duration-ms="10907">
+    <test started-at="2025-09-10T15:04:20 IST" name="Verify All Products Tests" finished-at="2025-09-10T15:04:29 IST" duration-ms="9231">
       <class name="com.tests.VerifyAllProductsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:05 IST" name="setUp" finished-at="2025-09-09T14:50:11 IST" duration-ms="6526" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:20 IST" name="setUp" finished-at="2025-09-10T15:04:25 IST" duration-ms="5114" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -309,31 +309,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:11 IST" name="initPages" finished-at="2025-09-09T14:50:11 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:25 IST" name="initPages" finished-at="2025-09-10T15:04:25 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:11 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:11 IST" duration-ms="16" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:25 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:25 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifyAllProductsPageIsVisible()[pri:2, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:12 IST" name="verifyAllProductsPageIsVisible" finished-at="2025-09-09T14:50:14 IST" duration-ms="1955" status="PASS">
+        <test-method signature="verifyAllProductsPageIsVisible()[pri:2, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:25 IST" name="verifyAllProductsPageIsVisible" finished-at="2025-09-10T15:04:27 IST" duration-ms="2131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductsPageIsVisible -->
-        <test-method signature="verifyViewProductsFunctionality()[pri:3, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:14 IST" name="verifyViewProductsFunctionality" finished-at="2025-09-09T14:50:15 IST" duration-ms="1729" status="PASS">
+        <test-method signature="verifyViewProductsFunctionality()[pri:3, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:27 IST" name="verifyViewProductsFunctionality" finished-at="2025-09-10T15:04:28 IST" duration-ms="1419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyViewProductsFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-09T14:50:16 IST" name="tearDown" finished-at="2025-09-09T14:50:16 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.VerifyAllProductsTest@217ed35e]" started-at="2025-09-10T15:04:29 IST" name="tearDown" finished-at="2025-09-10T15:04:29 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.VerifyAllProductsTest -->
     </test> <!-- Verify All Products Tests -->
-    <test started-at="2025-09-09T14:50:16 IST" name="Search Products Tests" finished-at="2025-09-09T14:50:24 IST" duration-ms="8631">
+    <test started-at="2025-09-10T15:04:29 IST" name="Search Products Tests" finished-at="2025-09-10T15:04:38 IST" duration-ms="8846">
       <class name="com.tests.SearchProductsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:16 IST" name="setUp" finished-at="2025-09-09T14:50:20 IST" duration-ms="4113" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:29 IST" name="setUp" finished-at="2025-09-10T15:04:34 IST" duration-ms="4987" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -349,31 +349,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:20 IST" name="initPages" finished-at="2025-09-09T14:50:20 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:34 IST" name="initPages" finished-at="2025-09-10T15:04:34 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:20 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:20 IST" duration-ms="39" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:34 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:34 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifyAllProductsPageIsVisible()[pri:2, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:20 IST" name="verifyAllProductsPageIsVisible" finished-at="2025-09-09T14:50:23 IST" duration-ms="2658" status="PASS">
+        <test-method signature="verifyAllProductsPageIsVisible()[pri:2, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:34 IST" name="verifyAllProductsPageIsVisible" finished-at="2025-09-10T15:04:36 IST" duration-ms="1783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllProductsPageIsVisible -->
-        <test-method signature="verifySearchFunctionality()[pri:3, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:23 IST" name="verifySearchFunctionality" finished-at="2025-09-09T14:50:24 IST" duration-ms="1010" status="PASS">
+        <test-method signature="verifySearchFunctionality()[pri:3, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:36 IST" name="verifySearchFunctionality" finished-at="2025-09-10T15:04:37 IST" duration-ms="1465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-09T14:50:24 IST" name="tearDown" finished-at="2025-09-09T14:50:24 IST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SearchProductsTest@6743e411]" started-at="2025-09-10T15:04:37 IST" name="tearDown" finished-at="2025-09-10T15:04:38 IST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.SearchProductsTest -->
     </test> <!-- Search Products Tests -->
-    <test started-at="2025-09-09T14:50:24 IST" name="Subscription Tests" finished-at="2025-09-09T14:50:39 IST" duration-ms="14397">
+    <test started-at="2025-09-10T15:04:38 IST" name="Subscription Tests" finished-at="2025-09-10T15:04:47 IST" duration-ms="9829">
       <class name="com.tests.SubscriptionTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-09T14:50:24 IST" name="setUp" finished-at="2025-09-09T14:50:30 IST" duration-ms="5244" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-10T15:04:38 IST" name="setUp" finished-at="2025-09-10T15:04:43 IST" duration-ms="4963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -389,27 +389,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-09T14:50:30 IST" name="initPages" finished-at="2025-09-09T14:50:30 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPages()[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-10T15:04:43 IST" name="initPages" finished-at="2025-09-10T15:04:43 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-09T14:50:30 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:30 IST" duration-ms="14" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-10T15:04:43 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:43 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifySubscriptionFunctionality()[pri:2, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-09T14:50:30 IST" name="verifySubscriptionFunctionality" finished-at="2025-09-09T14:50:36 IST" duration-ms="5861" status="PASS">
+        <test-method signature="verifySubscriptionFunctionality()[pri:2, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-10T15:04:43 IST" name="verifySubscriptionFunctionality" finished-at="2025-09-10T15:04:47 IST" duration-ms="4402" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubscriptionFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-09T14:50:36 IST" name="tearDown" finished-at="2025-09-09T14:50:39 IST" duration-ms="2920" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SubscriptionTest@233795b6]" started-at="2025-09-10T15:04:47 IST" name="tearDown" finished-at="2025-09-10T15:04:47 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.SubscriptionTest -->
     </test> <!-- Subscription Tests -->
-    <test started-at="2025-09-09T14:50:39 IST" name="Subscription Cart Tests" finished-at="2025-09-09T14:50:50 IST" duration-ms="10840">
+    <test started-at="2025-09-10T15:04:47 IST" name="Subscription Cart Tests" finished-at="2025-09-10T15:04:57 IST" duration-ms="9191">
       <class name="com.tests.SubscriptionCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-09T14:50:39 IST" name="setUp" finished-at="2025-09-09T14:50:44 IST" duration-ms="5445" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-10T15:04:47 IST" name="setUp" finished-at="2025-09-10T15:04:51 IST" duration-ms="4049" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -425,27 +425,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-09T14:50:44 IST" name="initPageObjects" finished-at="2025-09-09T14:50:44 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-09T14:50:44 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:44 IST" duration-ms="9" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-10T15:04:51 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:04:52 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifySubscriptionFlow()[pri:2, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-09T14:50:44 IST" name="verifySubscriptionFlow" finished-at="2025-09-09T14:50:49 IST" duration-ms="5001" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-10T15:04:51 IST" name="initPageObjects" finished-at="2025-09-10T15:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="verifySubscriptionFlow()[pri:2, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-10T15:04:52 IST" name="verifySubscriptionFlow" finished-at="2025-09-10T15:04:56 IST" duration-ms="4834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubscriptionFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-09T14:50:50 IST" name="tearDown" finished-at="2025-09-09T14:50:50 IST" duration-ms="190" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SubscriptionCartTest@9d5509a]" started-at="2025-09-10T15:04:56 IST" name="tearDown" finished-at="2025-09-10T15:04:57 IST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.SubscriptionCartTest -->
     </test> <!-- Subscription Cart Tests -->
-    <test started-at="2025-09-09T14:50:50 IST" name="Add To Cart Tests" finished-at="2025-09-09T14:51:08 IST" duration-ms="18315">
+    <test started-at="2025-09-10T15:04:57 IST" name="Add To Cart Tests" finished-at="2025-09-10T15:05:16 IST" duration-ms="18975">
       <class name="com.tests.AddToCartTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-09T14:50:50 IST" name="setUp" finished-at="2025-09-09T14:50:54 IST" duration-ms="4713" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-10T15:04:57 IST" name="setUp" finished-at="2025-09-10T15:05:01 IST" duration-ms="4772" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -461,27 +461,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-09T14:50:54 IST" name="initPageObjects" finished-at="2025-09-09T14:50:54 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-09T14:50:54 IST" name="verifyHomePageIsVisible" finished-at="2025-09-09T14:50:54 IST" duration-ms="6" status="PASS">
+        <test-method signature="verifyHomePageIsVisible()[pri:1, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-10T15:05:01 IST" name="verifyHomePageIsVisible" finished-at="2025-09-10T15:05:01 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageIsVisible -->
-        <test-method signature="verifyAddToCartFlow()[pri:2, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-09T14:50:55 IST" name="verifyAddToCartFlow" finished-at="2025-09-09T14:51:08 IST" duration-ms="13213" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-10T15:05:01 IST" name="initPageObjects" finished-at="2025-09-10T15:05:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method signature="verifyAddToCartFlow()[pri:2, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-10T15:05:02 IST" name="verifyAddToCartFlow" finished-at="2025-09-10T15:05:15 IST" duration-ms="13853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddToCartFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-09T14:51:08 IST" name="tearDown" finished-at="2025-09-09T14:51:08 IST" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AddToCartTest@7eac9008]" started-at="2025-09-10T15:05:15 IST" name="tearDown" finished-at="2025-09-10T15:05:16 IST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.AddToCartTest -->
     </test> <!-- Add To Cart Tests -->
-    <test started-at="2025-09-09T14:51:08 IST" name="Increase Quantity Tests" finished-at="2025-09-09T14:51:24 IST" duration-ms="16039">
+    <test started-at="2025-09-10T15:05:16 IST" name="Increase Quantity Tests" finished-at="2025-09-10T15:05:29 IST" duration-ms="13800">
       <class name="com.tests.IncreasedQuantityTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-09T14:51:08 IST" name="setUp" finished-at="2025-09-09T14:51:15 IST" duration-ms="6741" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-10T15:05:16 IST" name="setUp" finished-at="2025-09-10T15:05:20 IST" duration-ms="4769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -497,23 +497,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-09T14:51:15 IST" name="initPageObjects" finished-at="2025-09-09T14:51:15 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-10T15:05:20 IST" name="initPageObjects" finished-at="2025-09-10T15:05:20 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyIncreaseQuantityFlow()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-09T14:51:15 IST" name="verifyIncreaseQuantityFlow" finished-at="2025-09-09T14:51:24 IST" duration-ms="8796" status="PASS">
+        <test-method signature="verifyIncreaseQuantityFlow()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-10T15:05:20 IST" name="verifyIncreaseQuantityFlow" finished-at="2025-09-10T15:05:29 IST" duration-ms="8812" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIncreaseQuantityFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-09T14:51:24 IST" name="tearDown" finished-at="2025-09-09T14:51:24 IST" duration-ms="360" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.IncreasedQuantityTest@1a677343]" started-at="2025-09-10T15:05:29 IST" name="tearDown" finished-at="2025-09-10T15:05:29 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.IncreasedQuantityTest -->
     </test> <!-- Increase Quantity Tests -->
-    <test started-at="2025-09-09T14:51:24 IST" name="Registration while checkout Tests" finished-at="2025-09-09T14:51:50 IST" duration-ms="25733">
+    <test started-at="2025-09-10T15:05:29 IST" name="Registration while checkout Tests" finished-at="2025-09-10T15:05:53 IST" duration-ms="23193">
       <class name="com.tests.RegistrationWhileCheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-09T14:51:24 IST" name="setUp" finished-at="2025-09-09T14:51:29 IST" duration-ms="5034" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-10T15:05:29 IST" name="setUp" finished-at="2025-09-10T15:05:34 IST" duration-ms="4745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,23 +529,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-09T14:51:29 IST" name="initPageObjects" finished-at="2025-09-09T14:51:29 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-10T15:05:34 IST" name="initPageObjects" finished-at="2025-09-10T15:05:34 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyCheckoutWithRegistrationFlow()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-09T14:51:29 IST" name="verifyCheckoutWithRegistrationFlow" finished-at="2025-09-09T14:51:49 IST" duration-ms="20301" status="PASS">
+        <test-method signature="verifyCheckoutWithRegistrationFlow()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-10T15:05:34 IST" name="verifyCheckoutWithRegistrationFlow" finished-at="2025-09-10T15:05:52 IST" duration-ms="18143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutWithRegistrationFlow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-09T14:51:50 IST" name="tearDown" finished-at="2025-09-09T14:51:50 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationWhileCheckoutTest@7c6908d7]" started-at="2025-09-10T15:05:52 IST" name="tearDown" finished-at="2025-09-10T15:05:53 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.RegistrationWhileCheckoutTest -->
     </test> <!-- Registration while checkout Tests -->
-    <test started-at="2025-09-09T14:51:50 IST" name="Registration Before checkout Tests" finished-at="2025-09-09T14:52:28 IST" duration-ms="37878">
+    <test started-at="2025-09-10T15:05:53 IST" name="Registration Before checkout Tests" finished-at="2025-09-10T15:06:14 IST" duration-ms="21223">
       <class name="com.tests.RegistrationBeforeCheckoutTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-09T14:51:50 IST" name="setUp" finished-at="2025-09-09T14:52:09 IST" duration-ms="18768" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-10T15:05:53 IST" name="setUp" finished-at="2025-09-10T15:05:57 IST" duration-ms="4807" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -561,15 +561,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-09T14:52:09 IST" name="initPageObjects" finished-at="2025-09-09T14:52:09 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjects -->
-        <test-method signature="verifyPlaceOrderAfterSignup()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-09T14:52:09 IST" name="verifyPlaceOrderAfterSignup" finished-at="2025-09-09T14:52:27 IST" duration-ms="18791" status="PASS">
+        <test-method signature="verifyPlaceOrderAfterSignup()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-10T15:05:57 IST" name="verifyPlaceOrderAfterSignup" finished-at="2025-09-10T15:06:13 IST" duration-ms="15830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPlaceOrderAfterSignup -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-09T14:52:28 IST" name="tearDown" finished-at="2025-09-09T14:52:28 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="initPageObjects()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-10T15:05:57 IST" name="initPageObjects" finished-at="2025-09-10T15:05:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjects -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.RegistrationBeforeCheckoutTest@4b2bac3f]" started-at="2025-09-10T15:06:13 IST" name="tearDown" finished-at="2025-09-10T15:06:14 IST" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
